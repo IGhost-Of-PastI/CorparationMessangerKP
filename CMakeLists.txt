@@ -23,8 +23,9 @@ qt_add_qml_module(appSPPKP
         QML_FILES AdminDashboard.qml
         SOURCES admindashboardcontroller.h admindashboardcontroller.cpp
         SOURCES logincontroller.h logincontroller.cpp
-        SOURCES sqlconnection.h sqlconnection.cpp
+        SOURCES sqlconnection.h
         SOURCES
+        SOURCES logineduser.h logineduser.cpp
 )
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.
